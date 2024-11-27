@@ -51,3 +51,8 @@ usethis::git_sitrep()
 # ----------------------------------------------------------------------------
 
 ## THAT'S IT!
+
+# Import CSV file
+library(tidyverse)
+native <- read_csv("臺北市兒童及少年寄養家庭戶數.csv")
+glimpse(native)
